@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cycle Research Project</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <nav id="navigation_menu" hidden="true">
+            <div>
+                <button onclick="toggleNavigationMenu(false)">X</button>
+                <h2>Navigation</h2>
+            </div>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="life.html">Life</a>
+            <a href="lifecycle.html">Web Dev Lifecycle</a>
+        </nav>
+        <header>
+            <div>
+                <a href="index.html">
+                    <img src="assets/logo.png" alt="rebot333 logo" draggable="false">
+                </a>
+            </div>
+            <div class="header-content">
+                <h1 id="splash"></h1>
+                <div class="socials">
+                    <a href="https://www.youtube.com/channel/UC9DhlhRVyuGAMxIA9rYxIsw">
+                        <img src="assets/youtube.png" draggable="false">
+                    </a>
+                    <a href="https://github.com/rebot333">
+                        <img src="assets/github.png" draggable="false">
+                    </a>
+                    <a href="https://www.google.com/search?q=duck&tbm=isch">
+                        <img src="assets/duck.png" draggable="false">
+                    </a>
+                </div>
+            </div>
+            <div>
+                <img id="menu_button" src="assets/menu.png" onclick="toggleNavigationMenu(true)" draggable="false">
+            </div>
+        </header>
+        <main>
+            <h1 class="header">The Web Development Lifecycle</h1>
+            <h2 class="header">7 steps to follow for success</h2>
+            <img src="assets/steps_graphic.png">
+            <h2>Step 1: Research</h2>
+            <p>Gather the client's wants and needs. Identify purpose and audience of the site. Find whatever current trends may be relevant. <b>Make sure you know everything you need to know before starting.</b></p>
+            
+            <h2>Step 2: Planning</h2>
+            <p>How is the site going to look?</p>
+            <ul>
+                <li>What is going to be the layout?</li> 
+                <li>How can you incorporate any logos?</li>
+                <li>What color palette will you use?</li>
+                <li>Is it appealing to the target audience?</li>
+            </ul>
+            <p>How is it going to work?</p>
+            <ul>
+                <li>What tools and technologies will you utilize?</li>
+                <li>Will the site be static or dynamic?</li>
+                <li>What are the use cases and how will you accommodate them?</li>
+            
+            </ul>
+            <h2>Step 3: Building</h2>
+            <p>This is where you take into consideration everything from your planning phase, and actually build the site. This includes the front-end and back-end. Start with the main page and continue into the interior pages until everything is built.</p>
+            
+            <h2>Step 4: Set Up</h2>
+            <p>After the site is done and working on your own computer, you will need to deploy it. This includes setting up domains, hosts, or anything else needed to get the site working on the internet.</p>
+            
+            <h2>Step 5: Testing</h2>
+            <p>Now that everything is set up, the site must undergo in depth testing to ensure everything works. This includes front-end, back-end, and anything the site relies on. If anything is found to not work on the live site, here is where you fix those issues.</p>
+            
+            <h2>Step 6: Market</h2>
+            <p>This step includes everything that helps your site reach your target audience. Review analytics, perform <b>SEO</b> <i>(search engine optimization)</i>, and promote on social media and with ads.</p>
+            
+            <h2>Step 7: Maintenance</h2>
+            <p>Now that the site is finished, it must be maintained until its <b>EOL</b>. This includes fixing any issues that arise, keeping everything up to date, and adding any additional features.</p>
+            
+            <hr>
+
+            <h3>Sources:</h3>
+            <ul class="sources">
+                <li><a href="https://www.monocubed.com/web-development-life-cycle/">Monocubed</a></li>
+                <li><a href="https://www.educative.io/edpresso/what-are-the-steps-involved-in-a-website-development-lifecycle">Educative</a></li>
+                <li><a href="https://betterprogramming.pub/the-web-development-life-cycle-e7e2fd80fc55">Better Programming</a></li>
+                <li><a href="https://www.signitysolutions.com/blog/web-development-life-cycle/">Signity Solutions</a></li>
+            </ul>
+        </main>
+    </body>
+</html>
